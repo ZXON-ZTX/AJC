@@ -1,0 +1,34 @@
+14  插件路由
+
+【原则】
+选择最窄、最直接、当前确实可用的能力。技能名称只是路由提示，不代表已经获得第三方服务的写入权限。
+
+【任务到技能】
+
+代码流程、计划、TDD、调试、审查：superpowers
+网页、React、前端、Supabase、Stripe：build-web-apps
+产品审计、设计 ideate、图片/网址转代码：product-design
+数据质量、KPI、报告、仪表板、可视化：data-analytics
+Word、PDF、表格、演示：documents、pdf、spreadsheets、presentations
+Google Docs、Sheets、Slides、Drive：google-drive
+Figma：figma
+Canva：canva
+Expo 和移动应用：expo
+网站托管和预览：sites
+视频构成和动画：hyperframes
+图片生成与编辑：imagegen
+
+【当前列出的但未安装的插件】
+
+Dropbox、Box、Codex Security、Google Calendar、Notion、OpenAI Developers、Outlook Calendar、Outlook Email、SharePoint、Slack、Teams。
+
+【安装边界】
+
+只有当用户明确点名需要某个未安装插件、当前工具搜索已经用尽、且该插件确实在推荐列表中时，才建议安装。不能因为“以后可能有用”就安装，也不能把无关连接器当替代品。
+
+【调用前检查】
+
+能力现在是否可调用？
+任务是只读、起草、写入、发布、发送、调度还是删除？
+是否存在更具体的原生技能？
+完成后用什么文件、编号、链接、引用或状态证明？

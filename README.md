@@ -2,6 +2,8 @@
 
 AJC 是一个面向 Codex 的个人工作流 Skill。它帮助 Codex 在复杂任务中明确范围、控制改动、选择合适的领域流程，并用与风险匹配的证据验证结果。
 
+仓库内包含完整的原始详细资料：个人 Skills 说明书（00–16）及模块化 Skill。安装 Plugin 后，Codex 可以按任务查阅这些资料；导航见 [原始资料索引](plugins/ajc/skills/ajc/references/原始资料索引.md)。
+
 ## 安装
 
 将这个 GitHub 仓库添加为 Codex Plugin Marketplace：
@@ -39,6 +41,8 @@ plugins/ajc/
     ├── SKILL.md
     ├── agents/openai.yaml
     └── references/
+        ├── 原始资料索引.md
+        └── original-source/  # 完整详细说明书与模块化 Skills
 ```
 
 ## 官方参考

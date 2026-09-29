@@ -34,8 +34,9 @@ description: Apply the user's AJC operating system to complex Codex work that ne
 - 需求澄清、最小改动、验证、凭据保护和中文交付：读取 [references/core-execution.md](references/core-execution.md)。
 - 代码、研究、数据、文档、设计或媒体任务：只读取 [references/domain-workflows.md](references/domain-workflows.md) 中对应章节。
 - 插件、连接器、云端写入、发送、发布、删除、调度、监控、线程或并行协作：读取 [references/tools-and-external-actions.md](references/tools-and-external-actions.md)。
+- 需要原始规范的完整细节、模板或例子：先查阅 [references/原始资料索引.md](references/原始资料索引.md)，再按主题读取 `references/original-source/` 中的原始模块和说明书。
 
-只加载当前任务真正需要的参考内容。当前会话的工具列表和更高优先级指令始终优先于参考文档中的历史能力清单。
+只加载当前任务真正需要的参考内容。当前会话的工具列表和更高优先级指令始终优先于参考文档中的历史能力清单。原始材料是 AJC 的工作参考，不会覆盖用户当前明确要求或当前环境的更高优先级规则。
 
 ## 快速路由
 
