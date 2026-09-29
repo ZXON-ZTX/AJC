@@ -1,0 +1,4 @@
+interface:
+  display_name: "AJC"
+  short_description: "用 AJC 个人规范协调任务范围、执行、验证与中文交付"
+  default_prompt: "Use $ajc to complete this task with explicit scope, minimal changes, and proportional verification."

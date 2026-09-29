@@ -1,0 +1,36 @@
+{
+  "name": "ajc",
+  "version": "1.0.0",
+  "description": "A reusable operating system for scoped, minimal, evidence-driven Codex work.",
+  "author": {
+    "name": "ZXON-ZTX",
+    "url": "https://github.com/ZXON-ZTX"
+  },
+  "homepage": "https://github.com/ZXON-ZTX/AJC",
+  "repository": "https://github.com/ZXON-ZTX/AJC",
+  "keywords": [
+    "codex",
+    "skill",
+    "workflow",
+    "verification"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AJC",
+    "shortDescription": "Scope, execute, verify, and deliver complex Codex work.",
+    "longDescription": "AJC coordinates requirements, minimal changes, domain-specific workflows, external-action safety, proportional verification, and concise Chinese delivery.",
+    "developerName": "ZXON-ZTX",
+    "category": "Productivity",
+    "capabilities": [
+      "Workflow guidance",
+      "Verification",
+      "Chinese delivery"
+    ],
+    "websiteURL": "https://github.com/ZXON-ZTX/AJC",
+    "defaultPrompt": [
+      "Use $ajc to complete this task with explicit scope and proportional verification.",
+      "Use $ajc to plan the smallest safe change and verify the result.",
+      "使用 $ajc 按清晰范围、最小改动和证据验证完成这个任务。"
+    ]
+  }
+}

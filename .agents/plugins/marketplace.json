@@ -1,0 +1,20 @@
+{
+  "name": "ajc-marketplace",
+  "interface": {
+    "displayName": "Ajc Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ajc",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ajc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
