@@ -1,7 +1,7 @@
 {
   "name": "ajc",
-  "version": "1.1.0",
-  "description": "A reusable operating system for scoped, minimal, evidence-driven Codex work, with the complete detailed source materials included.",
+  "version": "1.2.0",
+  "description": "Automatically select and load relevant available skills for complex Codex projects, with scoped execution, evidence-driven verification, and complete source materials.",
   "author": {
     "name": "ZXON-ZTX",
     "url": "https://github.com/ZXON-ZTX"
@@ -12,25 +12,27 @@
     "codex",
     "skill",
     "workflow",
+    "skill-routing",
     "verification"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "AJC",
-    "shortDescription": "Scope, execute, verify, and deliver complex Codex work.",
-    "longDescription": "AJC coordinates requirements, minimal changes, domain-specific workflows, external-action safety, proportional verification, and concise Chinese delivery. The package includes the complete detailed source manuals and modular skills for reference.",
+    "shortDescription": "Automatically route complex projects to relevant skills.",
+    "longDescription": "AJC breaks complex projects into stages, selects and loads relevant skills from the current environment, and re-evaluates routes as work progresses. It coordinates scope, minimal changes, available capabilities, verification, and concise Chinese delivery. Complete source manuals and modular reference materials are included.",
     "developerName": "ZXON-ZTX",
     "category": "Productivity",
     "capabilities": [
       "Workflow guidance",
+      "Automatic skill routing",
       "Verification",
       "Chinese delivery"
     ],
     "websiteURL": "https://github.com/ZXON-ZTX/AJC",
     "defaultPrompt": [
-      "Use $ajc to complete this task with explicit scope and proportional verification.",
+      "Use $ajc to automatically select and load the relevant available skills for this project.",
       "Use $ajc to plan the smallest safe change and verify the result.",
-      "使用 $ajc 按清晰范围、最小改动和证据验证完成这个任务。"
+      "使用 $ajc 自动选择合适的技能，分阶段完成这个项目并验证结果。"
     ]
   }
 }
