@@ -1,6 +1,6 @@
 # AJC
 
-AJC 是一个面向 Codex 的个人工作流 Skill。它帮助 Codex 在复杂项目中自动选择并加载合适的 Skill，按阶段协调执行、控制改动，并用与风险匹配的证据验证结果。当前插件版本：**1.2.0**。
+AJC 是一个面向 Codex 的个人工作流 Skill。它帮助 Codex 在复杂项目中自动选择并加载合适的 Skill，按阶段协调执行、控制改动，并用与风险匹配的证据验证结果。当前插件版本：**1.2.1**。
 
 仓库内包含完整的原始详细资料：个人 Skills 说明书（00–16）及模块化 Skill。安装 Plugin 后，Codex 可以按任务查阅这些资料；导航见 [原始资料索引](plugins/ajc/skills/ajc/references/原始资料索引.md)。
 
@@ -51,7 +51,7 @@ AJC 会按需路由到以下工作流：
 
 实际选择取决于你的已安装技能和工具。数据分析阶段、仪表板阶段和 PPT 阶段会分别匹配；你的自定义技能也可以成为候选。AJC 保持隐式调用启用，宿主可在复杂项目请求匹配其描述时自动选择 AJC；明确写 `$ajc` 是直接调用入口。
 
-AJC 提供协调规则，其他专项技能、连接器和账号仍须在当前环境可用。自动选择不等于自动安装所有插件，也不增加发送、发布或删除权限。完整规则见 [自动技能路由](plugins/ajc/skills/ajc/references/skill-routing.md)，设计依据见 [GitHub 学习来源](plugins/ajc/skills/ajc/references/skill-routing-sources.md)。
+AJC 提供协调规则，其他专项技能、连接器和账号仍须在当前环境可用。自动选择不等于自动安装所有插件，也不增加发送、发布或删除权限。完整规则见 [自动技能路由](plugins/ajc/skills/ajc/references/自动技能路由.md)，设计依据见 [GitHub 学习来源](plugins/ajc/skills/ajc/references/技能路由学习来源.md)。
 
 ## 仓库结构
 
@@ -63,8 +63,8 @@ plugins/ajc/
     ├── SKILL.md
     ├── agents/openai.yaml
     └── references/
-        ├── skill-routing.md       # 动态选择、加载与阶段切换
-        ├── skill-routing-sources.md
+        ├── 自动技能路由.md       # 动态选择、加载与阶段切换
+        ├── 技能路由学习来源.md
         ├── 原始资料索引.md
         └── original-source/  # 完整详细说明书与模块化 Skills
 ```

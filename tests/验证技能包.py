@@ -11,7 +11,7 @@ skill_root = plugin_root / "skills/ajc"
 plugin = json.loads((plugin_root / ".codex-plugin/plugin.json").read_text(encoding="utf-8"))
 marketplace = json.loads((root / ".agents/plugins/marketplace.json").read_text(encoding="utf-8"))
 ui = yaml.safe_load((skill_root / "agents/openai.yaml").read_text(encoding="utf-8"))
-cases = json.loads((root / "tests/skill-routing-cases.json").read_text(encoding="utf-8"))
+cases = json.loads((root / "tests/技能路由测试场景.json").read_text(encoding="utf-8"))
 
 assert (plugin_root / plugin["skills"]).is_dir(), "Plugin skill directory is missing"
 assert (root / marketplace["plugins"][0]["source"]["path"]).resolve() == plugin_root.resolve()

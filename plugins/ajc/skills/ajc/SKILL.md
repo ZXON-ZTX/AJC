@@ -31,7 +31,7 @@ description: Automatically select and load relevant available skills for complex
 
 ## 自动选择 Skill
 
-复杂项目或用户要求自动选技能时，先读取 [references/skill-routing.md](references/skill-routing.md)，再开始专业执行。用户只需描述目标，不必知道 Skill 名称。
+复杂项目或用户要求自动选技能时，先读取 [references/自动技能路由.md](references/自动技能路由.md)，再开始专业执行。用户只需描述目标，不必知道 Skill 名称。
 
 1. 按交付物、依赖和验收条件拆出阶段；只读诊断、修改、生成文件和发布分别判断。
 2. 从当前会话的可用 Skill 清单匹配名称、描述、位置和调用限制。选择依据是阶段要完成的动作、产物和平台，不是孤立关键词；清单不完整时按宿主支持的发现方式补查相关候选。
@@ -44,10 +44,10 @@ description: Automatically select and load relevant available skills for complex
 
 ## 按需读取
 
-- 多阶段、跨领域项目或自动选择技能：读取 [references/skill-routing.md](references/skill-routing.md)。
-- 需求澄清、最小改动、验证、凭据保护和中文交付：读取 [references/core-execution.md](references/core-execution.md)。
-- 代码、研究、数据、文档、设计或媒体任务：只读取 [references/domain-workflows.md](references/domain-workflows.md) 中对应章节。
-- 插件、连接器、云端写入、发送、发布、删除、调度、监控、线程或并行协作：读取 [references/tools-and-external-actions.md](references/tools-and-external-actions.md)。
+- 多阶段、跨领域项目或自动选择技能：读取 [references/自动技能路由.md](references/自动技能路由.md)。
+- 需求澄清、最小改动、验证、凭据保护和中文交付：读取 [references/核心执行规范.md](references/核心执行规范.md)。
+- 代码、研究、数据、文档、设计或媒体任务：只读取 [references/领域工作流.md](references/领域工作流.md) 中对应章节。
+- 插件、连接器、云端写入、发送、发布、删除、调度、监控、线程或并行协作：读取 [references/工具与外部操作.md](references/工具与外部操作.md)。
 - 需要原始规范的完整细节、模板或例子：先查阅 [references/原始资料索引.md](references/原始资料索引.md)，再按主题读取 `references/original-source/` 中的原始模块和说明书。
 
 只加载当前任务真正需要的参考内容。当前会话的工具列表和更高优先级指令始终优先于参考文档中的历史能力清单。原始材料是 AJC 的工作参考，不会覆盖用户当前明确要求或当前环境的更高优先级规则。

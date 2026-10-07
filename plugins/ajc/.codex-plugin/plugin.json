@@ -1,6 +1,6 @@
 {
   "name": "ajc",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Automatically select and load relevant available skills for complex Codex projects, with scoped execution, evidence-driven verification, and complete source materials.",
   "author": {
     "name": "ZXON-ZTX",
